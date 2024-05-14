@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Importing the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- navigation bar -->
+    <div class="maindiv">
+      <div class="logo">
+        <img src="Film library1.png" alt="logo image" />
+      </div>
+      <div class="signin-singnout">
+        <button class="btn"><a href="#" id="signin">Sign In</a></button>
+        <button class="btn"><a href="#" id="signout">Register</a></button>
+      </div>
+    </div>
+
+    <div class="searchcontainer">
+      <div class="searchbar">
+        <input type="text" placeholder="search...." id="movie-name"  autocomplete="off" />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div id="result"></div>
+    </div>
+    <!-- Responsive ad section -->
+    <div class="mainads">
+      <div class="ads">
+        <h4>Responsive Ads....</h4>
+      </div>
+    </div>
+
+    <!-- popular movie hading section -->
+    <div class="mainheading">
+      <h2>Popular Movies</h2>
+    </div>
+
+    <!-- movie section images -->
+
+    <div class="container">
+      <div class="hero">
+        <!-- Image gallery -->
+        <div class="image_gallery">
+          <span><img src="Titanic.jpeg" /></span>
+          <span><img src="avatar.jpeg" /></span>
+          <span><img src="jhoncarterimage.jpg" /></span>
+          <span><img src="inception.jpeg" /></span>
+          <span><img src="joker poster.jpeg" /></span>
+          <span><img src="SITA RAMAM.jpeg" /></span>
+          <span><img src="hi Nanna.jpeg" /></span>
+          <span><img src="MARVELspider.jpeg" /></span>
+          <!-- <span><img src="extraction.jpeg"></span> -->
+          <!-- <span><img src="captain america.jpeg"></span> -->
+          <!-- <span><img src="iron.jpeg"></span> -->
+          <!-- <span><img src="images/image8.jpg"></span> -->
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="img_btns">
+          <div class="btn prev_btn"><i class="fa-solid fa-angle-left"></i></div>
+          <div class="btn next_btn">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about"></div>
+
+    <!-- Importing the JavaScript file -->
+
+    <script src="index.js"></script>
+    <script src="index1.js"></script>
+    <script src="key.js"></script>
+  </body>
+</html>
