@@ -16,7 +16,7 @@ images.forEach((image, index) => {
 prev_btn.addEventListener('click', function(){
   deg += 45;
   image_gallery.style.transform = `perspective(62.5rem) rotateY(${deg}deg)`;
-})
+});
 
 // Next Button
 next_btn.addEventListener('click', function () {
