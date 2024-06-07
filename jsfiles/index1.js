@@ -1,9 +1,9 @@
-//references
 let movieInput = document.getElementById("movie-name"),
   searchBtn = document.getElementById("search-btn"),
   result = document.getElementById("result");
 
-//function to fetch movie info form API
+  
+//function to fetch movie info from API
 let getMovieInfo = () => {
   let movieName = movieInput.value;
   let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
