@@ -34,16 +34,45 @@
 
     <div class="searchcontainer">
       <div class="searchbar">
-        <input type="text" placeholder="search...." id="movie-name"  autocomplete="off" />
+        <input
+          type="text"
+          placeholder="search...."
+          id="movie-name"
+          autocomplete="off"
+        />
         <button id="search-btn">Search</button>
       </div>
 
       <div id="result"></div>
     </div>
+
     <!-- Responsive ad section -->
     <div class="mainads">
       <div class="ads">
         <h4>Responsive Ads....</h4>
+      </div>
+    </div>
+
+    <!-- Sliding image section-->
+    <div class="slide-container">
+      <div class="slides">
+        <img src="a.jpg" class="active im" />
+        <img src="b.jpg" class="im" />
+        <img src="c.jpg" class="im" />
+        <img src="d.jpg" class="im" />
+        <img src="e.jpg" class="im" />
+        <img src="f.jpg" class="im" />
+      </div>
+
+      <div class="buttons">
+        <span class="back">&#10094;</span>
+        <span class="nex">&#10095;</span>
+      </div>
+
+      <div class="dotsContainer">
+        <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+        <div class="dot" attr="1" onclick="switchImage(this)"></div>
+        <div class="dot" attr="2" onclick="switchImage(this)"></div>
       </div>
     </div>
 
@@ -58,7 +87,7 @@
       <div class="hero">
         <!-- Image gallery -->
         <div class="image_gallery">
-          <span><img src="Titanic.jpeg" /></span>
+          <!-- <span><img src="avatar.jpeg" /></span> -->
           <span><img src="avatar.jpeg" /></span>
           <span><img src="jhoncarterimage.jpg" /></span>
           <span><img src="inception.jpeg" /></span>
@@ -66,12 +95,11 @@
           <span><img src="SITA RAMAM.jpeg" /></span>
           <span><img src="hi Nanna.jpeg" /></span>
           <span><img src="MARVELspider.jpeg" /></span>
-          <!-- <span><img src="extraction.jpeg"></span> -->
+          <span><img src="extraction.jpeg" /></span>
           <!-- <span><img src="captain america.jpeg"></span> -->
           <!-- <span><img src="iron.jpeg"></span> -->
           <!-- <span><img src="images/image8.jpg"></span> -->
         </div>
-
         <!-- Navigation buttons -->
         <div class="img_btns">
           <div class="btn prev_btn"><i class="fa-solid fa-angle-left"></i></div>
@@ -81,12 +109,45 @@
         </div>
       </div>
     </div>
-    <div class="about"></div>
+    <!-- footer seciton - social icons/home about us etc... -->
+    <footer>
+      <div class="socialicon">
+        <li>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </div>
+      <div class="footernav">
+        <ul>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Our Team</a></li>
+        </ul>
+      </div>
 
+      <div class="footer-bottom">
+        <p>Copyright &copy; 2024</p>
+      </div>
+    </footer>
     <!-- Importing the JavaScript file -->
 
     <script src="index.js"></script>
     <script src="index1.js"></script>
     <script src="key.js"></script>
+    <!-- slideing -->
+    <script src="first.js"></script>
   </body>
 </html>
